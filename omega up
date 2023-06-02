@@ -1,0 +1,10 @@
+#1
+#5334. Resolviendo El Acertijo Matemático
+N = int(input())
+
+for i in range(N):
+  a,b = map(int,input().split())
+  Pri = a-b
+  Sec = b+a
+  print(Pri, end="")
+  print(Sec)
