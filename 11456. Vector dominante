@@ -1,0 +1,18 @@
+#18
+#11456. Vector dominante
+
+def _main() -> None:
+  n = int(input())
+  arre1 = input()
+  arre2 = input()
+  arre1 = arre1.split()
+  arre2 = arre2.split()
+
+  bandera = 1
+  for i in range (n):
+    if (not int(arre1[i]) > int(arre2[i])):
+      bandera = 0 
+  print (bandera)
+
+if __name__ == '__main__':
+  _main()
