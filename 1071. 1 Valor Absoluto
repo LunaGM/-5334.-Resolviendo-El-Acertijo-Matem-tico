@@ -1,0 +1,8 @@
+#19
+#1071. 1 Valor Absoluto
+N,M = map(int,input().split())
+
+def VAbsoluto(N,M):
+  return abs(N+M)
+
+print(VAbsoluto(N,M))
