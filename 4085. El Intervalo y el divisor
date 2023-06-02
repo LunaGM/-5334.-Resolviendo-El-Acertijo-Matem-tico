@@ -1,0 +1,10 @@
+#11
+#4085. El Intervalo y el divisor
+n = int(input())
+a,b = map(int,input().split())
+cont = 0
+for i in range (a,b+1):
+  if i%n == 0:
+    cont += 1
+
+print (cont)
