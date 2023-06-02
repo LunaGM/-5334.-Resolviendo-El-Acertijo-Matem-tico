@@ -1,0 +1,8 @@
+#15
+#10469. El niño autista aburrido
+n,m = map(int,input().split())
+
+def Mitad(n,m):
+  return (n+m)//2
+
+print(Mitad(n,m))
