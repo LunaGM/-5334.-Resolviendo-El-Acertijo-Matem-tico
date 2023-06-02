@@ -1,0 +1,13 @@
+#16
+#3100. occ04pnsf31
+a,b,c,d = map(int,input().split())
+
+def Nada(a,b,c,d):
+  x = "*"
+  print (a*x)
+  print (b*x)
+  print (c*x)
+  print (d*x)
+  return " "
+
+print (Nada(a,b,c,d))
