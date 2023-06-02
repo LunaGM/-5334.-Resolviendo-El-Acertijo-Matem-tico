@@ -1,0 +1,18 @@
+#4
+#11350. Arreglo de mayor a menor
+a,b,c,d,e = map(int,input().split())
+
+r = []
+r.append(a)
+r.append(b)
+r.append(c)
+r.append(d)
+r.append(e)
+
+r.sort()
+
+print (r[4], end=" ")
+print (r[3], end=" ")
+print (r[2], end=" ")
+print (r[1], end=" ")
+print (r[0])
