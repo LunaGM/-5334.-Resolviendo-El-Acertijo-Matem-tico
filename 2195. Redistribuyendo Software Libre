@@ -1,0 +1,9 @@
+#2
+#2195. Redistribuyendo Software Libre
+N = int(input())
+for i in range (N):
+  i = int(input())
+  if i >= 3:
+    print("Ok")
+  else:
+    print("No")
