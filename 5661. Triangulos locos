@@ -1,0 +1,11 @@
+#20
+#5661. Triangulos locos
+L = int(input())
+
+def TriangulosUni(L):
+  if L == 1: 
+    return 1
+  else:
+    return L*L
+
+print (TriangulosUni(L))
