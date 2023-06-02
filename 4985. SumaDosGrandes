@@ -1,0 +1,24 @@
+#14
+#4985. SumaDosGrandes
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+f = int(input())
+
+
+r = []
+r.append(a)
+r.append(b)
+r.append(c)
+r.append(d)
+r.append(e)
+r.append(f)
+
+maximo1 = max(a,b,c,d,e,f)
+r.remove(maximo1)
+maximo2 = max(r)
+
+Suma = maximo1 + maximo2
+print (Suma)
