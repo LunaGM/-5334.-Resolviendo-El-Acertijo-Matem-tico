@@ -1,0 +1,39 @@
+#8
+#5789. Aprovechando los dedos 
+n = input()
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+
+M = []
+
+if n == "R":
+  M.append(a)
+  M.append(b)
+  M.append(c)
+  M.append(d)
+  M.append(e)
+
+if n == "L":
+  M.append(e)
+  M.append(d)
+  M.append(c)
+  M.append(b)
+  M.append(a)
+
+Suma = 0
+
+if M[0] == 1:
+  Suma += 1
+if M[1] == 1:
+  Suma += 2
+if M[2] == 1:
+  Suma += 4
+if M[3] == 1:
+  Suma += 8
+if M[4] == 1:
+  Suma += 16
+
+print (Suma)
