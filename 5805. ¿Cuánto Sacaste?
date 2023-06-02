@@ -1,0 +1,36 @@
+n = int(input())
+a = int(input())
+b = int(input())
+c = int(input())
+
+def NdeA(n,a):
+  if n == a:
+    return ("Te gano en la siguiente")
+  elif n > a:
+    return ("Soy Mejor")
+  else:
+    return ("Shh")
+
+def NotaB(n,b):
+  if n == b:
+    return ("Te gano en la siguiente")
+  elif n > b:
+    return ("Soy Mejor")
+  else:
+    return ("Shh")
+
+def NoteC(n,c):
+  if n == c:
+    return ("Te gano en la siguiente")
+  elif n > c:
+    return ("Soy Mejor")
+  else:
+    return ("Shh")
+
+def Notas(n,a,b,c):
+  print (NdeA(n,a))
+  print (NotaB(n,b))
+  print (NoteC(n,c))
+  return " "
+
+print (Notas(n,a,b,c))
